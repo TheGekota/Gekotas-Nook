@@ -525,7 +525,7 @@ body.loaded #loader-overlay {
 .about-hero {
   display: flex;
   align-items: flex-start;
-  margin-bottom: 60px;
+  margin-bottom: 0px;
   gap: 24px;
 }
 
