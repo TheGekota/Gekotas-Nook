@@ -196,8 +196,8 @@ h3 {
 }
 
 .featured-image {
-  width: 300px;
-  height: 180px;
+  width: 280px;
+  height: 160px;
   object-fit: cover;
   border-radius: 16px;
   box-shadow: 0 8px 22px rgba(60, 64, 91, 0.15);
@@ -207,7 +207,7 @@ h3 {
 
 
 .featured-content {
-  texT-align: left;
+  text-align: left;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -525,7 +525,7 @@ body.loaded #loader-overlay {
 .about-hero {
   display: flex;
   align-items: flex-start;
-  margin-bottom: 0px;
+  margin-bottom: 60px;
   gap: 24px;
 }
 
