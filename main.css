@@ -619,6 +619,19 @@ body.loaded #loader-overlay {
   box-shadow: 0 2px 12px rgba(60, 64, 91, 0.048);
 }
 
+.image-section-small img {
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(60, 64, 91, 0.048);
+}
+
+.image-section-small {
+  margin-top: 24px;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
 .image-section {
   margin-top: 24px;
   margin-bottom: 24px;
