@@ -627,3 +627,61 @@ body.loaded #loader-overlay {
 .last-paragraph {
   margin-bottom: 60px;
 }
+
+.slideshow {
+  width: 100%;
+  max-width: 960px;
+  margin: 2rem auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.image-slide-show {
+  display: flex;
+  animation: slide 16s infinite;
+  align-items: center; 
+}
+
+.image-slide-show img {
+  flex: 0 0 100%;
+
+  width: 100%;
+  max-width: 960px; 
+  height: auto;
+
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+
+@media (hover: hover) {
+  .slideshow:hover .image-slide-show {
+    animation-play-state: paused;
+  }
+}
+
+@keyframes slide {
+  0%, 20% {
+    transform: translateX(0%);
+  }
+  25%, 45% {
+    transform: translateX(-100%);
+  }
+  50%, 70% {
+    transform: translateX(-200%);
+  }
+  75%, 95% {
+    transform: translateX(-300%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .image-slide-show {
+    animation: none;
+  }
+}
