@@ -257,6 +257,7 @@ h3 {
 /* Tags and arrow Styling */
 .tag-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 8px;
   margin-top: 10px;
 }
@@ -271,6 +272,11 @@ h3 {
   font-weight: 500;
   letter-spacing: 0.04em;
   text-transform: uppercase;
+
+  white-space: nowrap;   
+  display: inline-flex; 
+  align-items: center;
+
 }
 
 .arrow {
