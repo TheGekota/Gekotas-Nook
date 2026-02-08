@@ -499,7 +499,7 @@ body.loaded #loader-overlay {
   align-items: center;
   justify-content: center;
   gap: 1em;
-  animation: spin 5s infinite linear;
+  animation: spin 8s infinite linear;
 }
 
 .skill-chip {
