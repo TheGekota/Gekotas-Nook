@@ -132,6 +132,13 @@ h3 {
     margin-top: 2.4rem;
 }
 
+.social-svg {
+  margin-top: 4px;
+  width: 28px !important;
+  height: 28px !important;
+  color: #1da1f2; /* blue */
+}
+
 .social-icons svg {
     width: 36px;
     height: 36px;
