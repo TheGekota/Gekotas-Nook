@@ -3,74 +3,167 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Nom Roller — a rapid UX prototype exploring how playful interaction design can reduce food decision fatigue under tight time constraints.">
   <link rel="shortcut icon" href="../assets/frog/frog.png" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
   <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&amp;family=Bungee&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../main.css">
-  <title>Nom Roller Game Case Study</title>
+  <title>Nom Roller — Case Study</title>
 </head>
 <body class="fade-in">
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
   <header>
     <nav>
       <a href="../index.html">
-        <img src="../assets/frog/frog.png" alt="Ava Logo" class="logo">
+        <img src="../assets/frog/frog.png" alt="Gekota's Nook home" class="logo">
       </a>
       <a href="../index.html#container">Home</a>
       <a href="../about.html">About</a>
-      <a href="../index.html#featured-projects">Experience</a>
-      <a href="https://docs.google.com/document/d/1FYqK8TgBsDbsRZoS-P9b1iEY-eKeBYptCGJ_uYHLzdM/edit?usp=sharing" 
-         target="_blank" rel="noopener">Resume
-      </a>
+      <a href="../index.html#featured-projects" aria-current="page">Experience</a>
+      <a href="https://docs.google.com/document/d/1FYqK8TgBsDbsRZoS-P9b1iEY-eKeBYptCGJ_uYHLzdM/edit?usp=sharing"
+         target="_blank" rel="noopener">Resume</a>
+      <a href="https://thegekota.itch.io" target="_blank" rel="noopener">Games</a>
     </nav>
   </header>
 
-  <main class="container">
-  <h1>Nom Roller</h1>
+  <main id="main" class="container container--case">
+    <article class="case">
 
-  <p><strong>Overview:</strong> Nom Roller is a rapid UX prototype designed and built for the Astra | Young Builders Symposium during Toronto Tech Week. Created under extreme time constraints, the project explores how playful interaction design can reduce decision fatigue around choosing what to eat.</p>
+      <div class="case-header">
+        <p><a href="../index.html#featured-projects" class="text-link">← All projects</a></p>
 
-  <p><strong>My Role:</strong> Lead UX Designer — Design Direction, Interaction Design, Prototyping</p>
-  <p><strong>Team:</strong> 4 designers</p>
-  <p><strong>Tools:</strong> Figma, Low-Fidelity Sketching, Rapid Prototyping, Live User Testing</p>
+        <h1>Nom Roller</h1>
 
-  <p><a href="https://www.figma.com/proto/gFWvx2QGcUpa9KjzOLQbNj/Nom-Roulette?node-id=106-410&p=f&t=TxfvSuqaY4LNXP67-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=106%3A410" target="_blank">View Interactive Prototype →</a></p>
+        <p class="case-kicker">
+          A rapid UX prototype designed and built for the Astra | Young Builders Symposium during
+          Toronto Tech Week. Created under extreme time constraints, the project explores how playful
+          interaction design can reduce decision fatigue around choosing what to eat.
+        </p>
 
-  <h2>Problem</h2>
-  <p>Food decisions are deceptively complex. When users are hungry, cognitive load is high, patience is low, and too many options lead to indecision. Existing food apps optimize for exploration, not decisiveness. We saw an opportunity to design for speed, clarity, and emotional relief rather than choice abundance.</p>
+        <dl class="case-facts">
+          <div>
+            <dt>Role</dt>
+            <dd>Lead UX Designer — design direction, interaction design, prototyping</dd>
+          </div>
+          <div>
+            <dt>Team</dt>
+            <dd>4 designers</dd>
+          </div>
+          <div>
+            <dt>Tools</dt>
+            <dd>Figma, low-fidelity sketching, rapid prototyping, live user testing</dd>
+          </div>
+          <div>
+            <dt>Links</dt>
+            <dd class="case-facts-links">
+              <a href="https://www.figma.com/proto/gFWvx2QGcUpa9KjzOLQbNj/Nom-Roulette?node-id=106-410&amp;p=f&amp;t=TxfvSuqaY4LNXP67-1&amp;scaling=scale-down&amp;content-scaling=fixed&amp;page-id=0%3A1&amp;starting-point-node-id=106%3A410"
+                 target="_blank" rel="noopener">View interactive prototype&nbsp;→</a>
+            </dd>
+          </div>
+        </dl>
+      </div>
 
-  <h2>Design Approach</h2>
-  <p>I set the design direction by framing the experience around a single principle: <em>reduce thinking, increase momentum</em>. I translated this into early low-fidelity sketches and interaction flows, then built an interactive Figma prototype to quickly align the team and test assumptions.</p>
+      <div class="case-layout">
 
-  <section class="image-section">
-  <img src="../assets/nom-roller imgs/Nom_low-fidelity.png" alt="Early sketches exploring comparison flows" style="max-width:100%;">
-  </section>
+        <nav class="case-nav" id="case-nav" aria-label="Case study sections"></nav>
 
-  <p>Key design decisions included prioritizing one primary action at a time, minimizing on-screen options, and using visual urgency cues to match the user’s hungry mental state.</p>
+        <div class="case-body">
 
-  <h2>Solution</h2>
-  <p>The final prototype delivers randomized food suggestions through a clean, minimal interface. Bold red accents act as “hunger signals,” while large, clearly separated buttons reduce hesitation and encourage fast decisions. The experience intentionally trades depth and customization for clarity and momentum.</p>
-  
-  <section class="image-section-small">
-  <img src="../assets/nom-roller imgs/Nom_Colours.png" alt="Early sketches exploring comparison flows" style="max-width:100%;">
-  </section>
+          <section class="case-section" id="problem">
+            <h2>Problem</h2>
+            <p>
+              Food decisions are deceptively complex. When users are hungry, cognitive load is high,
+              patience is low, and too many options lead to indecision. Existing food apps optimize
+              for exploration, not decisiveness. We saw an opportunity to design for speed, clarity,
+              and emotional relief rather than choice abundance.
+            </p>
+          </section>
 
-  <h2>Validation</h2>
-  <p>We tested the prototype live at the symposium using quick observational testing and short feedback forms. Users consistently understood the core interaction without explanation, validating the simplicity of the flow. Feedback highlighted moments where pacing and button hierarchy could be improved.</p>
+          <section class="case-section" id="approach" data-nav-label="Design Approach">
+            <h2>Design Approach</h2>
 
-  <section class="image-section-small">
-  <img src="../assets/nom-roller imgs/Nom_Feedback.png" alt="Early sketches exploring comparison flows" style="max-width:100%;">
-  </section>
+            <aside class="insight insight--strong">
+              <p class="insight-label">Guiding principle</p>
+              <p class="insight-text">Reduce thinking, increase momentum.</p>
+            </aside>
 
-  <h2>Iteration & Reflection</h2>
-  <p>Post-testing, I led discussions around refining interaction timing, adjusting button prominence, and improving layout balance. If continued, the next iteration would focus on micro-interactions and subtle motion to further guide user attention without adding cognitive load.</p>
+            <p>
+              I set the design direction by framing the experience around that single principle,
+              then translated it into early low-fidelity sketches and interaction flows, and built
+              an interactive Figma prototype to quickly align the team and test assumptions.
+            </p>
 
-  <p class="last-paragraph"><strong>Key Takeaway:</strong> This project reinforced how intentional constraint — fewer options, clearer actions, faster feedback — can dramatically improve usability, especially in high-friction decision moments.</p>
+            <figure class="image-section">
+              <img src="../assets/nom-roller imgs/Nom_low-fidelity.png" alt="Low-fidelity sketches of the Nom Roller flow" loading="lazy">
+              <figcaption>Low-fidelity sketches of the core flow.</figcaption>
+            </figure>
+
+            <p>
+              Key design decisions included prioritizing one primary action at a time, minimizing
+              on-screen options, and using visual urgency cues to match the user's hungry mental state.
+            </p>
+          </section>
+
+          <section class="case-section" id="solution">
+            <h2>Solution</h2>
+            <p>
+              The final prototype delivers randomized food suggestions through a clean, minimal
+              interface. Bold red accents act as “hunger signals,” while large, clearly separated
+              buttons reduce hesitation and encourage fast decisions. The experience intentionally
+              trades depth and customization for clarity and momentum.
+            </p>
+
+            <figure class="image-section-small">
+              <img src="../assets/nom-roller imgs/Nom_Colours.png" alt="Nom Roller colour palette, built around bold red hunger signals" loading="lazy">
+              <figcaption>The palette — red as a hunger signal.</figcaption>
+            </figure>
+          </section>
+
+          <section class="case-section" id="validation">
+            <h2>Validation</h2>
+            <p>
+              We tested the prototype live at the symposium using quick observational testing and
+              short feedback forms. Users consistently understood the core interaction without
+              explanation, validating the simplicity of the flow. Feedback highlighted moments where
+              pacing and button hierarchy could be improved.
+            </p>
+
+            <figure class="image-section-small">
+              <img src="../assets/nom-roller imgs/Nom_Feedback.png" alt="Summary of user feedback collected at the symposium" loading="lazy">
+              <figcaption>Feedback gathered on the floor.</figcaption>
+            </figure>
+          </section>
+
+          <section class="case-section" id="reflection" data-nav-label="Iteration &amp; Reflection">
+            <h2>Iteration &amp; Reflection</h2>
+            <p>
+              Post-testing, I led discussions around refining interaction timing, adjusting button
+              prominence, and improving layout balance. If continued, the next iteration would focus
+              on micro-interactions and subtle motion to further guide user attention without adding
+              cognitive load.
+            </p>
+
+            <aside class="insight">
+              <p class="insight-label">Key takeaway</p>
+              <p class="insight-text">
+                Intentional constraint — fewer options, clearer actions, faster feedback — can
+                dramatically improve usability, especially in high-friction decision moments.
+              </p>
+            </aside>
+          </section>
+
+        </div>
+      </div>
+    </article>
+  </main>
 
   <footer>
     <p>&copy; Ava De Mello — The Gekota</p>
   </footer>
-</main>
 
+  <script src="../script.js"></script>
 </body>
 </html>
